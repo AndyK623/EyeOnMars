@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+/*ESTO ES LO QUE HACE QUE EL FOOTER QUEDE SIEMPRE DEBAJO DEL BODY Y QUE SE VEA TODO BIEN*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/*Estos son todos los inputs*/
+.mat-form-field {
+  width: 100%;
+  font-size: 16px;
+}
